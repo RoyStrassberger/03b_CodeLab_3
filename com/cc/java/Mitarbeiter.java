@@ -1,6 +1,6 @@
 package com.cc.java;
 
-public class Mittarbeiter 
+public class Mitarbeiter 
 {
 
     private String lastNameString;
@@ -12,15 +12,15 @@ public class Mittarbeiter
     
     
     
-    // 'public Mittarbeiter(String lastNameString, String firstNameString, int birthYear, String workID,
-    //         String departmentString, String roleString) {
-    //     this.lastNameString = lastNameString;
-    //     this.firstNameString = firstNameString;
-    //     this.birthYear = birthYear;
-    //     this.workID = workID;
-    //     this.departmentString = departmentString;
-    //     this.roleString = roleString;
-    // }
+    public Mitarbeiter(String lastNameString, String firstNameString, int birthYear, String workID,
+            String departmentString, String roleString) {
+        this.lastNameString = lastNameString;
+        this.firstNameString = firstNameString;
+        this.birthYear = birthYear;
+        this.workID = workID;
+        this.departmentString = departmentString;
+        this.roleString = roleString;
+    }
     
     //Nachnamen
     public String getLastNameString() 
